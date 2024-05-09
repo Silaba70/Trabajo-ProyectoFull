@@ -1,0 +1,48 @@
+:root{
+    --primer-color: #665c52;
+    --segundo-color: #74b3a7;
+    --tercer-color: #a3ccaf;
+    --cuarto-color: #e6e1cf;
+    --quinto-color: #cc5b14;
+}
+
+* {
+    margin: 1px4;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primer-color);
+}
+
+nav{
+    background-color: var(--quinto-color);
+}
+
+
+.my-header{
+    background-color: var(--primer-color);
+}
+
+#Search{
+    background-color: var(--segundo-color);
+    height: 100px;
+    
+}
+
+#Course{
+    background-color: var(--tercer-color);
+}
+
+#Staff{
+    background-color: var(--segundo-color);
+}
+
+#Somos{
+    background-color: var(--tercer-color);
+}
+
+#my-footer{
+    background-color: var(--quinto-color);
+}
+
