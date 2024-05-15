@@ -4,8 +4,13 @@
     --tercer-color: #a3ccaf;
     --cuarto-color: #e6e1cf;
     --quinto-color: #cc5b14;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
+  
 * {
     margin: 1px4;
     padding: 0;
@@ -17,6 +22,25 @@ body {
 
 nav{
     background-color: var(--quinto-color);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+#nav-list{
+    display: flex;
+    list-style: none;
+    gap: 30vh;
+    text-align: justify;
+    align-items: end;
+
+
+}
+
+#nav-list li a {
+    text-decoration: none;
+    color: inherit;
+
 }
 
 
@@ -26,7 +50,10 @@ nav{
 
 #Search{
     background-color: var(--segundo-color);
-    height: 100px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -40,9 +67,28 @@ nav{
 
 #Somos{
     background-color: var(--tercer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    
 }
+
+#detalle {
+    margin: 50px;
+    text-align: center;
+}
+
+#valores{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+}
+
 
 #my-footer{
     background-color: var(--quinto-color);
 }
-
