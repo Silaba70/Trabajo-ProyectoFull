@@ -32,7 +32,10 @@ nav{
     list-style: none;
     gap: 30vh;
     text-align: justify;
-    align-items: end;
+    align-items: center;
+    justify-content: space-between;
+    
+
 
 
 }
@@ -92,3 +95,4 @@ nav{
 #my-footer{
     background-color: var(--quinto-color);
 }
+
