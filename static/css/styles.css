@@ -21,30 +21,45 @@ body {
 }
 
 nav{
-    background-color: var(--quinto-color);
-    height: 6vh;
+    background-color: var(--bg-nav);
+    height: 40px;  
+    font-family:"Roboto";
+    color: #eeece9;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
+    padding: 0 50px;
+   
+   }
 
 #nav-list{
     display: flex;
     list-style: none;
     gap: 30vh;
     text-align: justify;
-    align-items: center;
-    justify-content: space-between;
-    
-
+    align-items: end;
 
 
 }
-
-#nav-list li a {
+#nav-links li a {
     text-decoration: none;
     color: inherit;
+  }
 
-}
+
+
+#nav-links{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    
+    }
+
+    #textomenu0{
+        list-style: none;
+        text-decoration: none;
+        color: inherit;
+        }
 
 
 .my-header{
@@ -95,4 +110,3 @@ nav{
 #my-footer{
     background-color: var(--quinto-color);
 }
-
