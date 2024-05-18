@@ -106,6 +106,68 @@ nav{
     text-align: center;
 }
 
+#myDIV {
+  
+    display: grid;
+    grid-template-columns: 150px auto;
+    gap: 10px;
+    background-color: var(--quinto-color);
+    padding: 10px;
+    
+  }
+  
+  #myDIV div {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px 0;
+    
+    
+  }
+  .item1 {
+    grid-area: 1 / 1 / 2 / 2;
+    
+    text-align: center;
+  }
+
+  .item2 {
+    text-align: left;
+    text-indent: 15px;
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-indent: 15px;
+  }
+
+  p {
+    font-size: 14px;
+    text-indent: 15px;
+  }
+
+  .item3 {
+    text-align: center;
+  }
+
+  .item5 {
+    text-align: center;
+  }
+
+  .item7 {
+    text-align: center;
+  }
+  .item9 {
+    text-align: center;
+  }
+  .item11 {
+    text-align: center;
+  }
+
+
+
+  /* Aumento saturacion a la imagen al sobre volar el elemento */
+  .imagenStaff:hover {filter: saturate(180%)}
+
 
 #my-footer{
     background-color: var(--quinto-color);
