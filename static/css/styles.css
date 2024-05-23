@@ -116,6 +116,16 @@ nav{
   padding: 10px;
 }
 
+.hstaff {
+  font-size: 20px;
+  text-align: left;
+}
+
+.pstaff {
+  font-size: 14px;
+  text-align: left;
+}
+
 .grid-container0 {
   display: inline-grid;
   grid-template-columns: auto auto;
@@ -147,14 +157,11 @@ nav{
   
   #myDIV div {
     background-color: rgba(255, 255, 255, 0.8);
-    
     padding: 20px 0;
-    
-    
   }
+
   .item1 {
     grid-area: 1 / 1 / 2 / 2;
-    
     text-align: center;
   }
 
@@ -164,17 +171,7 @@ nav{
     font-size: 16px;
   }
 
-  .hstaff {
-    font-size: 20px;
-    text-align: left;
-  }
-
-  .pstaff {
-    font-size: 14px;
-    text-align: left;
-  }
-
-  .item3 {
+   .item3 {
     text-align: center;
   }
 
@@ -199,8 +196,6 @@ nav{
 .corrido {
   text-indent: 5%;
 }
-
-
 
 #my-footer{
     background-color: var(--quinto-color);
