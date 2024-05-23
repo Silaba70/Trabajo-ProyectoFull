@@ -7,7 +7,6 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-   
 }
   
 * {
@@ -28,8 +27,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-   
-   }
+}
 
 #nav-list{
     display: flex;
@@ -37,29 +35,24 @@ nav{
     gap: 30vh;
     text-align: justify;
     align-items: end;
-
-
 }
+
 #nav-links li a {
     text-decoration: none;
     color: inherit;
   }
 
-
-
 #nav-links{
     display: flex;
     list-style: none;
     gap:30px;
-    
-    }
+}
 
-    #textomenu0{
-        list-style: none;
-        text-decoration: none;
-        color: inherit;
-        }
-
+#textomenu0{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
 
 .my-header{
     background-color: var(--primer-color);
@@ -71,7 +64,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 #Course{
@@ -80,12 +72,10 @@ nav{
 
 #more-info{
   background-color: var(--tercer-color);
-  
 }
 
 #Staff{
     background-color: var(--segundo-color);
-    
 }
 
 #Somos{
@@ -94,7 +84,6 @@ nav{
     flex-direction: column;
     align-items: center;
     gap: 1px;
-    
 }
 
 #detalle {
@@ -153,12 +142,12 @@ nav{
     background-color: var(--quinto-color);
     padding: 10px;
     
-  }
+}
   
-  #myDIV div {
+#myDIV div {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px 0;
-  }
+}
 
   .item1 {
     grid-area: 1 / 1 / 2 / 2;
