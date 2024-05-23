@@ -7,9 +7,8 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+   
 }
-
   
 * {
     margin: 1px4;
@@ -86,6 +85,7 @@ nav{
 
 #Staff{
     background-color: var(--segundo-color);
+    
 }
 
 #Somos{
@@ -110,6 +110,30 @@ nav{
     font-size: small;
     text-align: center;
 }
+
+#Staff0{
+  background-color: var(--segundo-color);
+  padding: 10px;
+}
+
+.grid-container0 {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: var(--quinto-color);
+  padding: 10px;
+  gap: 10px;
+}
+
+.grid-item0 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+  /* Aumento saturacion a la imagen al sobre volar el elemento */
+  .imagenStaff:hover {filter: saturate(180%)}
+
 
 #myDIV {
   
@@ -140,14 +164,14 @@ nav{
     font-size: 16px;
   }
 
-  h4 {
+  .hstaff {
     font-size: 20px;
-    text-indent: 15px;
+    text-align: left;
   }
 
-  p {
+  .pstaff {
     font-size: 14px;
-    text-indent: 15px;
+    text-align: left;
   }
 
   .item3 {
@@ -176,8 +200,6 @@ nav{
   text-indent: 5%;
 }
 
-  /* Aumento saturacion a la imagen al sobre volar el elemento */
-  .imagenStaff:hover {filter: saturate(180%)}
 
 
 #my-footer{
