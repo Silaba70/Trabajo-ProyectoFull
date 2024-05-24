@@ -91,6 +91,11 @@ nav{
     text-align: center;
 }
 
+#detalle1 {
+    margin: 50px;
+    text-align: center;
+}
+
 #valores{
     list-style: none;
     display: flex;
