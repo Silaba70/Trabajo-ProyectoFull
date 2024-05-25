@@ -85,6 +85,20 @@ nav{
     align-items: center;
     gap: 1px;
 }
+#Mision{
+    background-color: var(--tercer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+#Valor{
+    background-color: var(--tercer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
 
 #detalle {
     margin: 50px;
